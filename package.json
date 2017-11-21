@@ -1,0 +1,26 @@
+{
+  "name": "@compositor/get-jsx-props",
+  "description": "Get props used in a jsx string",
+  "author": "Compositor",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava -v"
+  },
+  "repository": "c8r/get-jsx-props",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@compositor/babel-plugin-get-jsx-props": "0.0.1",
+    "babel-core": "^6.26.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
+}
