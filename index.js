@@ -1,11 +1,13 @@
 'use strict'
 
-const babel = require('babel-core')
+const Babel = require('@babel/standalone')
 const getProps = require('@compositor/babel-plugin-get-jsx-props')
 
 module.exports = jsx => {
-  const { metadata } = babel.transform(jsx, {
-    plugins: [getProps],
+  Babel.registerPlugin('get-jsx-props', getProps)
+
+  const { metadata } = Babel.transform(jsx, {
+    plugins: ['get-jsx-props'],
     presets: ['stage-0', 'react']
   })
 

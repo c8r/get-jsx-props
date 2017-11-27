@@ -14,11 +14,8 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "@compositor/babel-plugin-get-jsx-props": "0.0.1",
-    "babel-core": "^6.26.0",
-    "babel-plugin-syntax-jsx": "^6.18.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1"
+    "@babel/standalone": "^7.0.0-beta.32",
+    "@compositor/babel-plugin-get-jsx-props": "0.0.1"
   },
   "devDependencies": {
     "ava": "^0.23.0"
