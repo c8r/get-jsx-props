@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/standalone": "^7.0.0-beta.32",
-    "@compositor/babel-plugin-get-jsx-props": "0.0.1"
+    "@compositor/babel-plugin-get-jsx-props": "0.0.2"
   },
   "devDependencies": {
     "ava": "^0.23.0"
