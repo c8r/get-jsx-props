@@ -2,7 +2,7 @@
   "name": "@compositor/get-jsx-props",
   "description": "Get props used in a jsx string",
   "author": "Compositor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "files": [
     "index.js"
